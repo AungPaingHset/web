@@ -1,16 +1,12 @@
- /* Fonts */
+/* Fonts */
 @import url('https://fonts.bunny.net/css?family=Nunito');
 
-/*  Variables */
-@import 'variables';
+/* Vendor CSS (node_modules) */
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
 
-/*  Bootstrap */
-@import 'bootstrap/css/bootstrap';
-
-@import 'articles/form';
-@import 'articles/index';
-@import 'articles/detail';
-
-@import '@fortawesome/fontawesome-free/css/all.min.css';
-
-@import 'main';
+/* Local CSS (must be real .css files) */
+@import "./articles/form.css";
+@import "./articles/index.css";
+@import "./articles/detail.css";
+@import "./main.css";
